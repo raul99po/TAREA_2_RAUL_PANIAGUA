@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breaking Bad – Que comience el juego!</title>
+    <link rel="icon" href="breaking bad/icon.png">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body id="body_html1">
+    <center>
+    <div class="div_formulario">
+    <form name="formulario" action="mailto:raul.rodriguez@proeducaglobal.com" method="post">
+        <div class="div_formulario1">
+        <b id="letras1">Nombre: </b><br><input type="text" name="nombre" placeholder="Escribe tu nombre"
+        minlength="3" maxlength="18" required>
+        <br>
+        <b id="letras1">Apellidos: </b><br><input type="text" name="apellidos" placeholder="Escribe tus apellidos"
+        minlength="4" maxlength="24" required>
+        </div>
+        <br><br>
+        <div class="div_formulario1">       
+             <b id="letras1">Dirección: </b><br><input type="text" name="calle" placeholder="Calle/Avenida"
+                    minlength="5" max="30">
+                   <input type="text" name="numero" placeholder="Nº"
+                   minlength="1" maxlength="4" pattern="[0-9]+">
+                    <input type="text" name="piso" placeholder="Piso"
+                    minlength="1" max="4">
+                    <input type="text" name="codigo_postal" placeholder="Código Postal"
+                    minlength="5" maxlength="5" pattern="[0-9]+">
+                    <input type="text" name="ciudad" placeholder="Ciudad">
+         </div>
+
+                    <br><br>
+                    <div class="div_formulario1">
+        <b id="letras1">D.N.I: </b><br><input type="text" name="dni" placeholder="D.N.I"
+        minlength="9" maxlength="9">
+                    </div>
+        <br><br>
+        <div class="div_formulario1">
+        <b id="letras1">e-mail: </b><br><input type="email" name="email" placeholder="Ingrese su correo electrónico"
+        required>
+        </div>
+        <br><br>
+        <div class="div_formulario1">
+        <b id="letras1">Selecciona tu género: </b><br><br>
+                            <b id="letras1">Másculino</b><br><input type="radio" value="masculino" id="masculino" name="genero"><br>
+                            <b id="letras1">Femenino</b><br><input type="radio" value="femenino" id="femenino" name="genero"><br>
+                            <b id="letras1">Otro</b><br><input type="radio" value="otro" name="genero" id="otro"><br>
+        </div>
+        <br><br>
+        <div class="div_formulario1">
+        <b id="letras1">Fecha de nacimiento: </b><br><input type="month" name="fecha_nacimiento" min="1940-01" max="2018-03">
+    </div>
+        <br><br>
+        <div class="div_formulario1">
+        <b id="letras1">¿Cuál es tu personaje favorito?: </b><br> 
+        <select name="lista_personajes" multiple>
+                <option value="jessie_pinkman" label="Jessie Pinkman"></option>
+                <option value="walter_white" label="Walter White"></option>
+                <option value="saul_goodman" label="Saul Goodman"></option>
+                <option value="gustavo_fring" label="Gustavo Fring"></option>
+                <option value="pollos_hermanos" label="Pollos Hermanos"></option>
+                <option value="otros" label="Otros"></option>
+            </div>
+        </select>
+        <br><br>
+        <div><textarea id="comentario" name="comentario" placeholder="Escribe tu comentario aquí..."></textarea>
+        </div>
+            <br><br>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Borrar">
+        <br>
+        <input type="file" value="Adjuntar" accept=".pdf,.jpg,.png" multiple>
+    </form>
+    </div>
+</center>
+</body>
+</html>

@@ -1,0 +1,159 @@
+@font-face {
+    font-family: 'breaking_bad_font';
+    src: url("letra_1.ttf");
+}
+#body_html {
+    background-image: url("breaking bad/fondo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 30px;
+            }
+#body_html1 {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("breaking bad/fondo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 20px;
+}
+#logo {
+    width: 200px;
+    height: 200px;
+}
+#principio {
+padding-bottom: 25px;
+color: white;
+font-family: 'breaking_bad_font';
+}
+
+
+#poster {
+    width: 700px;
+    height: 300px;
+    border-radius: 22px; 
+    border: 10px outset;
+    overflow: hidden;
+    color: brown;
+}
+#body_tabla {
+    background-color: #0c3e11;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+td {
+text-align: center;
+}
+.sin_borde {
+    border: none;
+    color: #2b2c24;
+}
+
+b {
+    font-size: 30px;
+    color: #2b2c24;
+}
+
+table {
+    border-color: #2b2c24;
+    background-color: #2b2c24;
+}
+#tabla_1 {
+width: 800px; height:20px;
+}
+#primeras4 {
+    background-color: #b5d541
+
+}
+#finales16 {
+    background-color: #d5ea70;
+}
+
+#blancas {
+    background-color: #eff7c4;
+}
+
+#verden{
+    background-color: #89a31c;
+}
+#verde_caza{
+    background-color: #637126;
+}
+#verdeclaro {
+    background-color: #cbea33;
+}
+#gris {
+ background-color: #bcc49b;
+}
+#letras_p{
+font-size: 10px;
+
+}
+#verde_caza_claro {
+    background-color: #828c57;
+}
+#ultima_tabla {
+    background-color: #c0c922;
+
+}
+#marie {
+    background-color: #ab8fcc;
+}
+#breaking_bad {
+    font-size: 80px;
+}
+#tr1 {
+    background-color: #0c3e11;
+    font-size: 70px;
+}
+#tabla_breaking {
+  border-collapse: collapse;
+}
+#br{
+    color:#2b2c24;
+    background-color: #b7db21;
+}
+#aperio {
+    font-size: 15px;
+    text-align: left;
+    color: red;
+}
+#eaking {
+    text-align: left;
+    color: white;
+}
+.div_formulario {
+    background-color: blueviolet;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 700px;
+    width: 100%;
+    text-align: center;
+    border: 3px solid #2b2c24;
+    border-radius: 10px;
+}
+.div_formulario1 {
+    margin-bottom: 2px;
+  border: 1px solid #ab8fcc; 
+  border-radius: 5px; 
+  padding: 5px; 
+  font-size: 15px;
+}
+input {
+  width: 50%;
+  padding: 15px;
+  font-size: 16px; 
+  box-sizing: border-box;
+  border: 1px solid gray;
+  border-radius: 5px;
+  background-color: gray;
+  margin-top: 5px;}
+  #letras1 {
+    font-size: 19px;
+    text-align: left;
+  }
+
+textarea {
+    width: 100%;
+    height: 100px;
+    resize: vertical;
+    background-color: gray;
+}
